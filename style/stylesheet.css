@@ -16,6 +16,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: var(--cinzamuitoescuro);
+    width: 90%;
+    height: 100vh;
 }
 
 p, h1, h2, h3, li{
@@ -33,16 +35,6 @@ li{
     display: grid;
     grid-template-columns: 1fr 4fr; /* Define a largura das colunas */
 }
-@media (max-width: 1200px) {
-    .container{
-display: inline;
-    }
- }
-
-
-
-
-
 
 /* Estilos específicos para cada seção */
 footer {
@@ -89,3 +81,14 @@ main{
 main img{
     max-width: 550px;
 }
+
+@media (max-width: 1200px) {
+    .container{
+    display: inline-block;
+
+
+    }
+    aside{
+
+    }
+ }
