@@ -33,6 +33,16 @@ li{
     display: grid;
     grid-template-columns: 1fr 4fr; /* Define a largura das colunas */
 }
+@media (max-width: 1200px) {
+    .container{
+display: inline;
+    }
+ }
+
+
+
+
+
 
 /* Estilos específicos para cada seção */
 footer {
@@ -68,7 +78,8 @@ aside img{
 main{
     border-left: 3px dotted var(--rosinha);
     background-color: var(--crinzaescuro);
-    width: 60vw;
+    width: 80vw;
+    height: 80vh;
     padding-left: 10px;
     padding-top: 5px;
     text-align: justify;
